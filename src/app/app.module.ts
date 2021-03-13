@@ -9,6 +9,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SectionDormitorComponent } from './sections/section-dormitor/section-dormitor.component';
 import { SectionSufragerieComponent } from './sections/section-sufragerie/section-sufragerie.component';
 import { appRoutes } from 'src/routes';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { appRoutes } from 'src/routes';
     NavbarComponent,
     SidebarComponent,
     SectionDormitorComponent,
-    SectionSufragerieComponent
+    SectionSufragerieComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
