@@ -14,3 +14,6 @@
     margin-left: -5px;
     border-radius: 4px;
 }
+a:hover {
+    text-decoration: none;
+}
